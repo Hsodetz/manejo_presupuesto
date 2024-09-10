@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/helmuthsodetz/Documents/cursoAspNetCoreUdemy/ManejoPresupuesto/ManejoPresupuesto/ManejoPresupuesto.csproj": {}
+  },
+  "projects": {
+    "/Users/helmuthsodetz/Documents/cursoAspNetCoreUdemy/ManejoPresupuesto/ManejoPresupuesto/ManejoPresupuesto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/helmuthsodetz/Documents/cursoAspNetCoreUdemy/ManejoPresupuesto/ManejoPresupuesto/ManejoPresupuesto.csproj",
+        "projectName": "ManejoPresupuesto",
+        "projectPath": "/Users/helmuthsodetz/Documents/cursoAspNetCoreUdemy/ManejoPresupuesto/ManejoPresupuesto/ManejoPresupuesto.csproj",
+        "packagesPath": "/Users/helmuthsodetz/.nuget/packages/",
+        "outputPath": "/Users/helmuthsodetz/Documents/cursoAspNetCoreUdemy/ManejoPresupuesto/ManejoPresupuesto/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/helmuthsodetz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.95.4, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
